@@ -1,0 +1,20 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+nuget:
+  project_feed: true
+build_script:
+
+- cmd: >-
+    nuget restore
+
+    msbuild Eto.Gl.WinForms\Eto.Gl.WinForms.csproj
+
+    msbuild Eto.Gl.Mac\Eto.Gl.Mac.csproj
+
+    nuget pack Eto.Gl
+
+    nuget pack Eto.Gl.WinForms
+
+    nuget pack Eto.Gl.Mac
+artifacts:
+- path: '*.nupkg'
