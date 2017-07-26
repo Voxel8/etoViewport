@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Eto.Gl.WinForms</id>
+    <version>0.0.1</version>
+    <title>WinForms interface for Eto OpenGL viewport.</title>
+    <authors>Voxel8</authors>
+    <owners>Voxel8</owners>
+    <licenseUrl>https://github.com/Voxel8/etoViewport/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Voxel8/etoViewport</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the Windows Forms platform for Eto.Gl control.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags></tags>
+  </metadata>
+</package>
