@@ -11,10 +11,14 @@ build_script:
 
     msbuild Eto.Gl.Mac\Eto.Gl.Mac.csproj
 
+    msbuild Eto.Gl.WPF_WinformsHost\Eto.Gl.WPF_WinformsHost.csproj
+
     nuget pack Eto.Gl
 
     nuget pack Eto.Gl.WinForms
 
     nuget pack Eto.Gl.Mac
+
+    nuget pack Eto.Gl.WPF_WinformsHost
 artifacts:
 - path: '*.nupkg'
