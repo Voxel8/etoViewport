@@ -5,6 +5,8 @@ nuget:
 build_script:
 
 - cmd: >-
+    nuget sources add -Name EtoMyGet -Source https://www.myget.org/F/eto/
+
     nuget restore
 
     msbuild Eto.Gl.WinForms\Eto.Gl.WinForms.csproj
