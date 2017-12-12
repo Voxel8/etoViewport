@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Eto.Gl.WPF_WinformsHost</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <title>WPF interface for Eto OpenGL viewport.</title>
     <authors>Voxel8</authors>
     <owners>Voxel8</owners>
