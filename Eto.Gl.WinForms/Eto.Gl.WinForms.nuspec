@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Eto.Gl.WinForms</id>
-    <version>0.0.4</version>
+    <version>0.0.5</version>
     <title>WinForms interface for Eto OpenGL viewport.</title>
     <authors>Voxel8</authors>
     <owners>Voxel8</owners>
