@@ -1,4 +1,7 @@
 # etoViewport
+
+[![Build status](https://ci.appveyor.com/api/projects/status/g1t2pni2rhbkq9mb?svg=true)](https://ci.appveyor.com/project/Voxel8/etoviewport)
+
 Eto OpenGL viewport (C#)
 
 MIT licensed.

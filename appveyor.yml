@@ -1,0 +1,26 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+nuget:
+  project_feed: true
+build_script:
+
+- cmd: >-
+    nuget sources add -Name EtoMyGet -Source https://www.myget.org/F/eto/
+
+    nuget restore
+
+    msbuild Eto.Gl.WinForms\Eto.Gl.WinForms.csproj
+
+    msbuild Eto.Gl.Mac\Eto.Gl.Mac.csproj
+
+    msbuild Eto.Gl.WPF_WinformsHost\Eto.Gl.WPF_WinformsHost.csproj
+
+    nuget pack Eto.Gl
+
+    nuget pack Eto.Gl.WinForms
+
+    nuget pack Eto.Gl.Mac
+
+    nuget pack Eto.Gl.WPF_WinformsHost
+artifacts:
+- path: '*.nupkg'
